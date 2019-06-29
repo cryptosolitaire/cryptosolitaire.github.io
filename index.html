@@ -72,7 +72,9 @@
 <!-- footer custom css -->
 <link href="assets/css/footer.css" rel="stylesheet" type="text/css" />
 
-
+<!-- swiper css -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/css/swiper.min.css" rel="stylesheet" type="text/css" />
+<link href="assets/css/customswiper.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -149,8 +151,18 @@
     <section id="home" class="featured-section">
         <div id="featured-banner-outer">
 
-            <!-- banner example -left assigned -->
-            <div class="featured-slide" style="background-image:url('assets/img/bg1.jpg');">
+            <!-- banner example -left assigned desktop -->
+            <div class="featured-slide copyright-desktop" style="background-image:url('assets/img/bg1.jpg');">
+                <div class="container">
+                    <div class="featured-slide-content featured-left boxed">
+                        <h2 class="font-montserrat-reg" style="color: #212529">What is CryptoSolitaire</h2>
+                        <p style="color: #212529; font-size: 18px;">CryptoSolitaire combines art and Blockchain technology to provide players with a unique experience. You'll be able to play our card games using Non-Fungible Tokens designed by talented artists. Collaborating with these artists will give the decks an intrinsic value. And as they become more popular in their craft, the value of the decks they created will also rise alongside it.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- banner example -left assigned mobile -->
+            <div class="featured-slide copyright-mobile" style="background-image:url('assets/img/bg0.jpg');">
                 <div class="container">
                     <div class="featured-slide-content featured-left boxed">
                         <h2 class="font-montserrat-reg" style="color: #212529">What is CryptoSolitaire</h2>
@@ -314,7 +326,7 @@
                     <div class="row">
 
                         <!-- standard page content -->
-                        <div class="col-xlarge-3 col-medium-3 col-small-12">
+                        <div class="col-xlarge-3 col-medium-3 col-small-12 artcollection-desktop">
 
                                 <ul class="row clearfix" data-layout-style="masonry">
 
@@ -390,6 +402,33 @@
                                     <li><a href="https://www.instagram.com/chenandink/"><i class="fa fa-instagram"></i><span>Instagram</span></a></li>
                                 </ul>
                             </div>
+
+                        </div>
+
+                        <div class="col-small-12 artcollection-mobile">
+                                <!-- Swiper -->
+                                <div class="swiper-container">
+                                   <span class="close-button"></span>
+                                   <div class="gallery-top">
+                                      <div class="swiper-wrapper">
+                                         <div class="swiper-slide" style="background-image:url(assets/img/portrait-1.jpg)"></div>
+                                         <div class="swiper-slide" style="background-image:url(assets/img/portrait-2.jpg)"></div>
+                                         <div class="swiper-slide" style="background-image:url(assets/img/portrait-3.jpg)"></div>
+                                         <div class="swiper-slide" style="background-image:url(assets/img/portrait-4.jpg)"></div>
+                                      </div>
+                                      <!-- Add Arrows -->
+                                      <div class="swiper-button-next swiper-button-white"></div>
+                                      <div class="swiper-button-prev swiper-button-white"></div>
+                                   </div>
+                                   <div class="gallery-thumbs">
+                                      <div class="swiper-wrapper">
+                                         <div class="swiper-slide" style="background-image:url(assets/img/thumbnail-1.jpg)"></div>
+                                         <div class="swiper-slide" style="background-image:url(assets/img/thumbnail-2.jpg)"></div>
+                                         <div class="swiper-slide" style="background-image:url(assets/img/thumbnail-3.jpg)"></div>
+                                         <div class="swiper-slide" style="background-image:url(assets/img/thumbnail-4.jpg)"></div>
+                                      </div>
+                                   </div>
+                                </div>
 
                         </div>
 
@@ -832,5 +871,8 @@
 <!-- modal js-->
 <script src="assets/js/modal.js"></script>
 
+<!-- swiper js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/js/swiper.min.js"></script>
+<script src="assets/js/customswiper.js"></script>
 </body>
 </html>

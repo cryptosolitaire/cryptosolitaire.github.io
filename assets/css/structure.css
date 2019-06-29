@@ -160,4 +160,6 @@ body {-webkit-print-color-adjust:exact;font-size:13px;line-height:1.5;color:#333
 	.small-pull-left{float:left;}
 
 	.modal-mobile{display: none !important;}
+	.artcollection-desktop{ display: none; }
+	.artcollection-mobile{ display: block !important;}
 }
