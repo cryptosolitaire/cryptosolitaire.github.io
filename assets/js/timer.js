@@ -1,4 +1,4 @@
-const countdownto = new Date('7/8/2019 11:12:00');
+const countdownto = new Date('8/8/2019 11:12:00');
 
 function describeArc(x, y, radius, startAngle, endAngle) {
 
