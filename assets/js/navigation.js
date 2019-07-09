@@ -1,7 +1,5 @@
 $(document).on("scroll", function() {
-
     scrollTopNav();
-
 });
 
 function scrollTopNav(){
