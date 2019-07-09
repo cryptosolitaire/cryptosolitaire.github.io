@@ -1,6 +1,6 @@
 /* properties of the subscribe card */
 .subscribe {
-    background-color: rgba(255,255,255,100%);
+    background-color: rgb(255,255,255);
     padding:10px 50px 50px 50px;
     margin: 3.5em auto 0 auto;
     border-radius: 10px;
