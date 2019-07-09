@@ -59,3 +59,12 @@
 .item-number-one{
     padding-top: 100px;
 }
+
+.field-shift {
+    left: -9999px; position: absolute;
+}
+
+html[dir="rtl"] .field-shift {
+    right: -9999px;
+    left: auto;
+}
