@@ -10,9 +10,6 @@
     transition: all .3s;
 }
 
-.timeline .done {
-    
-}
 @media screen and (max-width: 768px) {
     .timeline {
         margin: 0 0 0 20px;
@@ -33,6 +30,7 @@
     padding: 20px;
     transition: all .3s;
 }
+
 @media screen and (max-width: 425px) {
     .timeline .point .bocata {
         width: 180px;
