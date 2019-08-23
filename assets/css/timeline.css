@@ -9,6 +9,10 @@
     text-align: center;
     transition: all .3s;
 }
+
+.timeline .done {
+    
+}
 @media screen and (max-width: 768px) {
     .timeline {
         margin: 0 0 0 20px;
